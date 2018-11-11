@@ -3,9 +3,9 @@ import spotipy
 from spotipy import oauth2
 
 PORT_NUMBER = 8080
-SPOTIPY_CLIENT_ID = 'd6c6e5ce225342978a3e5c8b81dfdc73'
-SPOTIPY_CLIENT_SECRET = 'd1239756496843f490e54230cc088a5e'
-SPOTIPY_REDIRECT_URI = 'http://206.81.8.75:8080/'
+SPOTIPY_CLIENT_ID = ''
+SPOTIPY_CLIENT_SECRET = ''
+SPOTIPY_REDIRECT_URI = ''
 SCOPE = 'playlist-modify-public'
 CACHE = '.spotipyoauthcache'
 
