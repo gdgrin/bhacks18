@@ -8,9 +8,9 @@ from twilio.twiml.messaging_response import MessagingResponse
 app = Flask(__name__)
 
 PORT_NUMBER = 8080
-SPOTIPY_CLIENT_ID = 'd6c6e5ce225342978a3e5c8b81dfdc73'
-SPOTIPY_CLIENT_SECRET = 'd1239756496843f490e54230cc088a5e'
-SPOTIPY_REDIRECT_URI = 'http://63adf468.ngrok.io:5000/'
+SPOTIPY_CLIENT_ID = ''
+SPOTIPY_CLIENT_SECRET = ''
+SPOTIPY_REDIRECT_URI = ''
 SCOPE = 'playlist-modify-public'
 CACHE = '.spotipyoauthcache'
 
