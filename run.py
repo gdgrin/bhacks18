@@ -17,6 +17,11 @@ def sms_reply():
         song_info = song_info.split('-')
         song = song_info[0]
         artist = song_info[1]
+        if ' ' in song:
+            song.replace(" ","%")
+            getURL = f'http://206.81.8.75:8080/add_track?song={song}&artist={artist}'
+            ret = requests.get(getURL)
+            return "sucess"
         getURL = f'http://206.81.8.75:8080/add_track?song={song}&artist={artist}'
         ret = requests.get(getURL)
 
